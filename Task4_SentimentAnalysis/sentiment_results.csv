@@ -1,0 +1,25 @@
+Review_ID,Review,Sentiment_Score,Sentiment
+1,This product is amazing and works perfectly,0.8402,Positive
+2,I absolutely love this product,0.6697,Positive
+3,Excellent quality and fast delivery,0.5719,Positive
+4,Very happy with my purchase,0.6115,Positive
+5,The product is worth the money,0.2263,Positive
+6,"Fantastic experience, highly recommended",0.6901,Positive
+7,The quality is good and performance is great,0.7906,Positive
+8,I am satisfied with this product,0.4215,Positive
+9,The product is okay,0.2263,Positive
+10,Delivery was on time,0.0,Neutral
+11,The product is average,0.0,Neutral
+12,It is neither good nor bad,-0.5824,Negative
+13,The quality is acceptable,0.3182,Positive
+14,The product is not very useful,-0.3865,Negative
+15,I am disappointed with this purchase,-0.4767,Negative
+16,Very poor quality and terrible service,-0.7574,Negative
+17,The product stopped working after one day,-0.2263,Negative
+18,I hate this product,-0.5719,Negative
+19,"Waste of money, not recommended",-0.5255,Negative
+20,Delivery was very late and the package was damaged,-0.4404,Negative
+21,The product does not meet my expectations,0.0,Neutral
+22,Bad experience with customer support,-0.2023,Negative
+23,The quality is poor,-0.4767,Negative
+24,I would not buy this product again,0.0,Neutral
