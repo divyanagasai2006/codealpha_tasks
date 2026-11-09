@@ -19,7 +19,7 @@ while next_url:
 
     for book in soup.select("article.product_pod"):
         title = book.h3.a["title"]
-        price = book.select_one(".price_color").get_text(strip=True)
+        price = book.select_one(".price_color").get_text(strip=True).replace("Â£", "£")
         availability = book.select_one(".availability").get_text(strip=True)
         rating = book.select_one(".star-rating")["class"][1]
         link = urljoin(next_url, book.h3.a["href"])
@@ -42,9 +42,11 @@ while next_url:
     time.sleep(0.3)
 
 df = pd.DataFrame(books)
-df.to_csv("books_dataset.csv", index=False)
+df.to_csv("books_dataset.csv", index=False, encoding="utf-8-sig")
 
 print("\nWEB SCRAPING COMPLETED!")
 print("Total books collected:", len(df))
 print(df.head())
 print("\nDataset saved as books_dataset.csv")
+
+
